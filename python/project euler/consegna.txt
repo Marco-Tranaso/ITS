@@ -1,0 +1,31 @@
+1. Multiples of 3 and 5
+Trova la somma di tutti i numeri naturali sotto 1000 che sono multipli di 3 o 5.
+
+2. Even Fibonacci numbers
+Trova la somma di tutti i numeri di Fibonacci sotto 4 milioni che sono pari.
+
+3. Largest prime factor
+Trova il più grande fattore primo del numero 600851475143.
+
+4. Largest palindrome product
+Trova il più grande numero palindromo che può essere ottenuto come prodotto di due numeri a tre cifre.
+
+5. Smallest multiple
+Trova il più piccolo numero che è divisibile per tutti i numeri da 1 a 20.
+
+6. Sum square difference
+Trova la differenza tra la somma dei quadrati dei primi 100 numeri naturali e il quadrato della loro somma.
+
+7. 10001st prime
+Trova il 10.001° numero primo.
+
+8. Largest product in a series
+Trova il massimo prodotto di 13 numeri consecutivi in una lunga serie di cifre (che troverai nel problema).
+
+9. Special Pythagorean triplet
+Trova il prodotto dei numeri del tripletto pitagorico per cui a + b + c = 1000, dove a, b, c sono numeri interi che soddisfano l’equazione a² + b² = c².
+
+10. Summation of primes
+Trova la somma di tutti i numeri primi inferiori a 2 milioni.
+
+Questi sono i primi 10 problemi, ma Project Euler ne offre molti altri! Se vuoi i dettagli di altri problemi o hai bisogno di aiuto per implementarli in Python, fammi sapere! Puoi trovare l'elenco completo su Project Euler.

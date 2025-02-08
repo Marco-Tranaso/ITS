@@ -1,0 +1,103 @@
+Stampa "Hello, World!".
+Crea una variabile x e assegna il valore 5, poi stampala.
+Chiedi all'utente di inserire il suo nome e stampalo.
+Calcola la somma di due numeri.
+Calcola la differenza tra due numeri.
+Controlla se un numero è positivo o negativo.
+Trova il massimo tra due numeri.
+Stampa i numeri da 1 a 10 usando un ciclo for.
+Trova se un numero è pari o dispari.
+Calcola la lunghezza di una stringa.
+Converti una stringa in maiuscolo.
+Converti una stringa in minuscolo.
+Verifica se una stringa è palindroma.
+Genera un numero casuale tra 1 e 100.
+Controlla se un elemento esiste in una lista.
+Trova il numero più grande in una lista.
+Ordina una lista di numeri in ordine crescente.
+Trova il fattoriale di un numero usando un ciclo.
+Calcola la media di una lista di numeri.
+Stampa i numeri pari in una lista.
+Stampa i numeri dispari in una lista.
+Trova il numero più piccolo in una lista.
+Inverti una lista.
+Calcola il quadrato di un numero.
+Trova il perimetro di un rettangolo dato base e altezza.
+Livello Intermedio
+Stampa i primi 10 numeri di Fibonacci.
+Trova i numeri primi fino a 100.
+Calcola l'area di un cerchio dato il raggio.
+Trova tutti i divisori di un numero.
+Conta quante volte un elemento appare in una lista.
+Trova i duplicati in una lista.
+Rimuovi i duplicati da una lista.
+Trova la parola più lunga in una frase.
+Trova la somma di tutti i numeri in una lista.
+Controlla se una lista è ordinata.
+Scrivi una funzione che sommi due numeri.
+Scrivi una funzione che restituisca il massimo tra tre numeri.
+Concatena due liste.
+Trova la differenza tra due liste.
+Stampa una tabella di moltiplicazione (1-10).
+Trova il valore assoluto di un numero.
+Stampa un triangolo di Pascal.
+Calcola l'ipotenusa di un triangolo rettangolo dato base e altezza.
+Converte una lista in un set.
+Verifica se un numero è perfetto.
+Scrivi una funzione per invertire una stringa.
+Scrivi una funzione che restituisca True se un numero è palindromo.
+Implementa un semplice dizionario con chiavi e valori.
+Controlla se una chiave esiste in un dizionario.
+Conta quante vocali ci sono in una stringa.
+Livello Difficilex\
+Scrivi una funzione che verifichi se due stringhe sono anagrammi.
+Trova il massimo comune divisore (MCD) tra due numeri.
+Trova il minimo comune multiplo (MCM) tra due numeri.
+Implementa l'algoritmo di ordinamento "bubble sort".
+Implementa l'algoritmo di ordinamento "merge sort".
+Scrivi una funzione ricorsiva per il calcolo del fattoriale.
+Scrivi una funzione ricorsiva per la sequenza di Fibonacci.
+Implementa una calcolatrice base (somme, sottrazioni, moltiplicazioni, divisioni).
+Cripta un messaggio usando il cifrario di Cesare.
+Decripta un messaggio cifrato con il cifrario di Cesare.
+Scrivi una funzione per verificare se una lista è palindroma.
+Trova tutte le permutazioni di una stringa.
+Risolvi l'equazione di secondo grado data a, b, e c.
+Calcola la somma delle diagonali di una matrice.
+Implementa un semplice gioco di "indovina il numero".
+Genera un labirinto casuale usando una matrice.
+Scrivi un programma per calcolare i numeri di Armstrong.
+Implementa una funzione che cerchi binariamente in una lista ordinata.
+Simula il lancio di una moneta N volte e conta testa e croce.
+Conta le parole in un file di testo.
+Scrivi un programma per contare le righe di un file di testo.
+Estrai le righe che contengono una parola specifica in un file.
+Scrivi una funzione per controllare la validità di un indirizzo email.
+Converte un numero binario in decimale.
+Converte un numero decimale in binario.
+Livello Avanzato
+Implementa una coda (queue) usando liste.
+Implementa uno stack usando liste.
+Simula un algoritmo di ordinamento "quick sort".
+Implementa l'algoritmo di ricerca "breadth-first search" (BFS).
+Implementa l'algoritmo di ricerca "depth-first search" (DFS).
+Risolvi il problema dei "n-queens".
+Risolvi il problema dello "zaino" (knapsack problem).
+Implementa il calcolo del percorso più breve in un grafo (Dijkstra).
+Implementa un sistema per leggere e scrivere in un database SQLite.
+Simula il movimento casuale di un punto in un piano 2D.
+Scrivi una funzione per generare una password casuale.
+Calcola il determinante di una matrice.
+Implementa il problema del commesso viaggiatore (TSP).
+Risolvi il problema del cambio minimo di monete.
+Trova i cicli in un grafo diretto.
+Implementa un sistema di gestione di file (creazione, modifica, cancellazione).
+Scrivi un semplice sistema di login con registrazione usando file.
+Simula un sistema bancario con depositi, prelievi e bilanci.
+Implementa un gioco di "tris" (tic-tac-toe).
+Scrivi un programma per risolvere un Sudoku.
+Implementa un sistema di prenotazione di biglietti.
+Calcola i numeri primi fino a 1 milione con il crivello di Eratostene.
+Scrivi un parser per un file JSON complesso.
+Implementa un semplice web scraper usando requests e BeautifulSoup.
+Crea un'applicazione con interfaccia grafica (GUI) per un gioco di carte semplice.

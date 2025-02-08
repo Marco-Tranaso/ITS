@@ -1,0 +1,45 @@
+Somma degli elementi di una lista: Scrivi una funzione che restituisce la somma di tutti gli elementi di una lista di numeri.
+
+Trova il massimo e il minimo: Scrivi una funzione che restituisce il massimo e il minimo di una lista.
+
+Conta la frequenza di un elemento: Scrivi una funzione che conta quante volte un dato numero appare in una lista.
+
+Inverti una lista: Scrivi una funzione che inverte una lista senza utilizzare metodi predefiniti.
+
+Rimuovi duplicati: Scrivi una funzione che rimuove i duplicati da una lista e restituisce una lista senza ripetizioni.
+
+Aggiungi un elemento in fondo alla lista: Scrivi una funzione che aggiunge un elemento alla fine di una lista.
+
+Trova l'indice di un elemento: Scrivi una funzione che restituisce l'indice di un dato elemento in una lista.
+
+Aggiungi un elemento in una posizione specifica: Scrivi una funzione che aggiunge un elemento in una posizione specifica di una lista.
+
+Ordina una lista: Scrivi una funzione che ordina una lista di numeri in ordine crescente.
+
+Unisci due liste: Scrivi una funzione che prende due liste e le unisce in una nuova lista.
+
+Rimuovi un elemento da una lista: Scrivi una funzione che rimuove il primo occorrenza di un dato elemento in una lista.
+
+Moltiplica gli elementi della lista per un valore: Scrivi una funzione che moltiplica ogni elemento di una lista per un numero dato.
+
+Crea una lista di numeri pari: Scrivi una funzione che restituisce una lista contenente solo i numeri pari da una lista di numeri.
+
+Crea una lista di numeri dispari: Scrivi una funzione che restituisce una lista contenente solo i numeri dispari da una lista di numeri.
+
+Rimuovi gli elementi più piccoli di un valore dato: Scrivi una funzione che rimuove tutti gli elementi della lista che sono minori di un valore dato.
+
+Trova la media degli elementi di una lista: Scrivi una funzione che calcola la media degli elementi di una lista di numeri.
+
+Verifica se un elemento esiste nella lista: Scrivi una funzione che verifica se un dato elemento esiste in una lista.
+
+Scambia gli elementi di due liste: Scrivi una funzione che scambia il contenuto di due liste.
+
+Ripeti una lista un numero di volte: Scrivi una funzione che ripete una lista per un numero specificato di volte.
+
+Crea una lista con i quadrati dei numeri in un intervallo: Scrivi una funzione che crea una lista contenente i quadrati dei numeri da 1 a un numero dato.
+
+
+
+
+
+

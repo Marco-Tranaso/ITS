@@ -1,0 +1,47 @@
+Calcolare la somma di tutti i numeri pari in un intervallo.
+Stampare i multipli di un numero in un intervallo specificato.
+Verificare se una parola è un palindromo.
+Trovare il numero massimo in una lista di numeri.
+Calcolare la somma dei numeri da 1 a n usando ricorsione.
+Contare quante volte un carattere appare in una stringa.
+Generare la sequenza di Fibonacci fino a n numeri.
+Rimuovere i duplicati da una lista.
+Trovare il secondo numero più grande in una lista.
+Calcolare il fattoriale di un numero.
+Contare il numero di parole in una frase.
+Verificare se un numero è primo.
+Implementare l'algoritmo di bubble sort.
+Restituire tutti i numeri primi in un intervallo.
+Verificare se un numero è perfetto.
+Convertire un numero binario in decimale.
+Trovare la parola con più vocali in una lista.
+Filtrare i numeri dispari da una lista.
+Calcolare la media di una lista di numeri.
+Convertire una temperatura da Celsius a Fahrenheit.
+Contare il numero di lettere maiuscole in una stringa.
+Implementare la ricerca binaria su una lista ordinata.
+Restituire il numero di Fibonacci alla posizione n.
+Verificare se una lista è ordinata in ordine crescente.
+Calcolare la somma di tutti gli elementi di una lista.
+Restituire la lunghezza di una lista senza usare len().
+Verificare se due parole sono anagrammi.
+Creare una matrice quadrata 2x2.
+Moltiplicare due matrici 2x2.
+Verificare se un numero è un quadrato perfetto.
+Rimuovere tutti i numeri negativi da una lista.
+Calcolare la potenza di un numero senza usare ** o pow().
+Trovare il minimo comune multiplo di due numeri.
+Verificare se una lista contiene duplicati.
+Invertire una lista senza usare reverse().
+Generare una lista con i numeri da 1 a n.
+Restituire l'elemento che appare più spesso in una lista.
+Calcolare l'area di un cerchio dato il raggio.
+Implementare un programma che calcoli il massimo tra tre numeri.
+Scrivere una funzione che restituisce il massimo dei due numeri con il valore assoluto più grande.
+Contare quante volte una sottostringa appare in una stringa.
+Restituire una lista con i numeri dispari da una lista di numeri.
+Trovare il primo elemento di una lista che è maggiore di un valore dato.
+Verificare se un anno è bisestile.
+Rimuovere gli spazi extra da una stringa.
+Calcolare la somma dei numeri in una lista, escludendo i numeri negativi.
+Creare una funzione che restituisca la lunghezza della stringa senza usare len().
