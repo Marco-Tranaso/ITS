@@ -1,0 +1,5 @@
+<?
+ $salutofinale=ciao
+ echo $salutofinale
+
+?>
