@@ -1,8 +1,8 @@
 function Calculator(num){
-    half_num=num/2;
-    square_num=half_num**2;
-    area_circle=(square_num**2)*Math.PI;
-    percentage_num=(area_circle/square_num)*100;
+    let half_num=num/2;
+    let square_num=half_num**2;
+    let area_circle=(square_num**2)*Math.PI;
+    let percentage_num=(area_circle/square_num)*100;
 
     console.log(`The half number is ${half_num}`);
     console.log(`The squared number is ${square_num}`);

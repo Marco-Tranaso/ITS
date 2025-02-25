@@ -319,10 +319,11 @@ header h1 span {
 .col-8,
 .col-6,
 .col-12 {
+  padding: 3px;
   height: 25vh;
   padding: 0 1rem;
   float: left;
-  border: 3px solid red;
+  padding: 10px;
 }
 
 .col-4 {
