@@ -1,5 +1,5 @@
-<?
- $salutofinale=ciao
- echo $salutofinale
+<?php
+$var1=3
+echo $var1;
 
 ?>
