@@ -8,3 +8,4 @@ function greaterNum(num1,num2){
 }
 greaterNum(5,10);
 greaterNum(3,7);
+
