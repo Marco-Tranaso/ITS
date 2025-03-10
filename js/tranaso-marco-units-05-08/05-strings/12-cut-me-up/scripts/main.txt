@@ -1,0 +1,53 @@
+Difference between slice(), substring(), and substr() in JavaScript
+
+In JavaScript, slice(), substring(), and substr() are methods used to extract parts of a string. Ecco le principali differenze:
+
+slice()
+
+Sintassi: string.slice(start, end)
+
+Estrae una porzione di stringa.
+
+Il parametro start indica l'inizio.
+
+Il parametro end (opzionale) indica dove fermarsi (escluso).
+
+Supporta indici negativi.
+
+Esempio:
+
+let str = "JavaScript";
+console.log(str.slice(0, 4)); // "Java"
+console.log(str.slice(-6, -1)); // "Scrip"
+
+substring()
+
+Sintassi: string.substring(start, end)
+
+Simile a slice(), ma non supporta indici negativi.
+
+Se start > end, vengono scambiati automaticamente.
+
+Esempio:
+
+console.log(str.substring(6, 2)); // "vaSc"
+
+substr() (Deprecato)
+
+Sintassi: string.substr(start, length)
+
+Il parametro length indica quanti caratteri estrarre.
+
+Supporta indici negativi.
+
+Esempio:
+
+console.log(str.substr(4, 6)); // "Script"
+
+Conclusione
+
+Usa slice() se servono indici negativi.
+
+Usa substring() se vuoi lo scambio automatico degli indici.
+
+Evita substr(), perché è deprecato.
