@@ -12,4 +12,10 @@ function money(amount){
 let amount;
 console.log(money(1));
 console.log(money(10));
-console.log(money(1000001));
+console.log(money(1000001));    
+
+function convertDollars(amount){
+    return `money(${amount}): ${amount} dollars are ${(amount/1.074).toFixed(2)} euros`;
+}
+
+console.log(convertDollars(10))
