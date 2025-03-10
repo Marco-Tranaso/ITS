@@ -1,18 +1,16 @@
 function printReverse(string){
-    console.log(string.split("").reverse().join(""));
+    console.log(string.split("").reverse().join(""))
 }
+let string = "foobar";
+printReverse(string)
 
-printReverse("ciao")
+// version 2
 
-
-// opzione 2
-
-// function printReverse(string) {
-//     let reversedString = "";
-//     for (let i = string.length - 1; i >= 0; i--) {
-//         reversedString += string[i];
+// function reverse(str) {
+//     let reversedStr = '';
+//     for (let i = str.length - 1; i >= 0; i--) {
+//       reversedStr += str[i];
 //     }
-//     console.log(reversedString);
-// }
-
-// printReverse("ciao"); 
+//     return reversedStr;
+//   }
+  

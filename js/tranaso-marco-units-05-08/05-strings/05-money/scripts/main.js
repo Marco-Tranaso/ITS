@@ -1,11 +1,15 @@
-function greaterNum(num1,num2){
-    if (num1>num2){
-        console.log(`The greater number of ${num1} and ${num2} is ${num1}`);
+function money(amount){
+    if (amount <= 1) {
+        return `money(${amount}) ${amount} dollar`;
+    }
+    else if (amount > 1e6){
+        return `money(${amount}) ${amount} dollars ;)`;
     }
     else{
-        console.log(`The greater number of ${num1} and ${num2} is ${num2}`);
+        return `money(${amount}): ${amount} dollars`;
     }
 }
-greaterNum(5,10);
-greaterNum(3,7);
-
+let amount;
+console.log(money(1));
+console.log(money(10));
+console.log(money(1000001));

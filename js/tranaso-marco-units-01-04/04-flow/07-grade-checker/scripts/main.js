@@ -1,11 +1,21 @@
-let a = "ciao"
+// Author: Marco Tranaso
 
-a="c";
+let a = "ciao";
 
-console.log(a)
-function assignGrade(score){
+// Reassigning the value of variable 'a' to 'c'
+a = "c";
+
+console.log(a);
+
+/**
+ * @function assignGrade
+ * @param {number} score - The score to assign a grade.
+ * @returns {string} The grade based on the score.
+ * This function assigns a letter grade based on the score input.
+ */
+function assignGrade(score) {
     let message;
-    switch (score){
+    switch (score) {
         case 10:
             message = 'A';
             break;
@@ -25,6 +35,7 @@ function assignGrade(score){
     return message;
 }
 
+// Loop to assign grades for scores from 60 to 100
 for (let i = 60; i <= 100; i++) {
     let grade = assignGrade(Math.floor(i / 10));
     console.log(`For ${i}, you got a ${grade}.`);

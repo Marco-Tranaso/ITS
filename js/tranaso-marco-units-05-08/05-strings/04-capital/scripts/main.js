@@ -1,11 +1,20 @@
-function greaterNum(num1,num2){
-    if (num1>num2){
-        console.log(`The greater number of ${num1} and ${num2} is ${num1}`);
-    }
-    else{
-        console.log(`The greater number of ${num1} and ${num2} is ${num2}`);
-    }
+function capital(string){
+    return string.charAt(0).split("")[1];
 }
-greaterNum(5,10);
-greaterNum(3,7);
 
+console.log(capital("hello world"));
+
+function capitalAllWords(str) {
+    let words = str.split(" "); 
+    let result = " ";
+    
+    for (let i = 0; i < words.length; i++) {
+        result += words[i].charAt(0).toUpperCase() + words[i].slice(1);
+        result += " ";
+        console.log(words.length)
+    }
+    
+    return result;
+}
+
+console.log(capitalAllWords("hello world"));

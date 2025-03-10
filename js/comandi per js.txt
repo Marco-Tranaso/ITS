@@ -1,0 +1,25 @@
+Comandi per formattare automaticamente file js e html 
+
+
+per creare cartella scripts, spostare il file main.js,per mettere come title html il nome dell'esercizio e cambiare src dell'html:
+
+
+find . -type f -name 'index.html' -exec sh -c '
+  dir=$(dirname "{}");
+  exercise_name=$(basename "$dir");
+
+  if [ ! -f "$dir/scripts/main.js" ]; then
+    mkdir -p "$dir/scripts" && touch "$dir/scripts/main.js";
+  fi
+
+  if [ -f "$dir/main.js" ]; then
+    mkdir -p "$dir/scripts";
+    mv "$dir/main.js" "$dir/scripts/";
+  fi
+
+  sed -i "
+    s|<script src=\"index.js\"></script>|<script src=\"/scripts/main.js\"></script>|;
+    s|<title>.*</title>|<title>$exercise_name</title>|;
+  " "{}"
+' \;
+

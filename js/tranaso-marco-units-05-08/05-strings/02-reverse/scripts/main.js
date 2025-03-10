@@ -1,11 +1,20 @@
-function greaterNum(num1,num2){
-    if (num1>num2){
-        console.log(`The greater number of ${num1} and ${num2} is ${num1}`);
-    }
-    else{
-        console.log(`The greater number of ${num1} and ${num2} is ${num2}`);
-    }
+function printReverse(string){
+    return string.split("").reverse().join("");
 }
-greaterNum(5,10);
-greaterNum(3,7);
+let string = "foobar";
+console.log(printReverse(string));
 
+// version 2
+
+// function reverse(str) {
+//     let reversedStr = '';
+    
+//     for (let i = str.length - 1; i >= 0; i--) {
+//       reversedStr += str[i];
+//     }
+    
+//     return reversedStr;
+//   }
+  
+//   console.log(reverse("foobar"));
+  

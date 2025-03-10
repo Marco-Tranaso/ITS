@@ -1,0 +1,5 @@
+What does ?v=1.0 do?
+It forces the browser to load the latest version of the CSS file by treating it as a new request, preventing cache issues.
+
+How does the browser cache work?
+The browser stores copies of resources (CSS, JS, images) to load pages faster. If a resource is cached, the browser may reuse it instead of downloading it again.
