@@ -1,0 +1,20 @@
+{
+    "libri": [
+      {
+        "libro_id": 1,
+        "titolo": "Il Piccolo Principe",
+        "editore_id": 9
+      },
+      {
+        "libro_id": 2,
+        "titolo": "Il Signore degli Anelli",
+        "editore_id": 1
+      },
+      {
+        "libro_id": 3,
+        "titolo": "Inferno",
+        "editore_id": 3
+      }
+    ]
+  }
+  

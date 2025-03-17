@@ -1,0 +1,20 @@
+{
+    "editori": [
+      {
+        "id": 9,
+        "nome": "Sperling & Kupfer",
+        "contatto": "sperling-info@gmail.com"
+      },
+      {
+        "id": 1,
+        "nome": "Mondadori",
+        "contatto": "info-mondadori@gmail.com"
+      },
+      {
+        "id": 3,
+        "nome": "Einaudi",
+        "contatto": "amm-einaudi@gmail.com"
+      }
+    ]
+  }
+  

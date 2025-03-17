@@ -1,0 +1,23 @@
+{
+    "autori": [
+      {
+        "id": 9,
+        "nome": "Antoine",
+        "cognome": "de Saint-Exupéry",
+        "nazionalita": "fr"
+      },
+      {
+        "id": 1,
+        "nome": "John Ronald Reuel",
+        "cognome": "Tolkien",
+        "nazionalita": "za"
+      },
+      {
+        "id": 2,
+        "nome": "Dan",
+        "cognome": "Brown",
+        "nazionalita": "us"
+      }
+    ]
+  }
+  
