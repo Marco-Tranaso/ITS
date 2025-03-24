@@ -1,0 +1,23 @@
+div#header{
+    border: 0px solid black;
+}
+div#footer{
+    border: 0px solid black;
+}
+div#sidebar{
+    border: 0px solid black;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+div#content{
+    border: 0px solid black;
+    width: 72%;
+    height: 100%;
+}
+.container_centrale{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    padding: 0 auto;
+}
