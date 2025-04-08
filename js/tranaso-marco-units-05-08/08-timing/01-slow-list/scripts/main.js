@@ -1,12 +1,17 @@
-let elementi = [
-    "Pizza", "Pasta", "Hamburger", "Sushi", "Torta",
-    "Libro: Il Signore degli Anelli", "Libro: Harry Potter", "Libro: 1984", "Libro: Orgoglio e Pregiudizio", "Libro: Il Piccolo Principe",
-    "Mela", "Banana", "Arancia", "Pera", "Uva",
-    "Tazza", "Sedia", "Tavolo", "Zaino", "Telefono",
-    "Cioccolato", "Biscotti", "Gelato", "Caffè", "Tè",
-    "Film: Inception", "Film: Matrix", "Film: Interstellar", "Film: Il Padrino", "Film: Forrest Gump"
-];
+/**
+ * @author Marco Tranaso
+ * @description This function prints each element from the 'elementi' array at intervals of 1 second using setInterval.
+ * It stops when all elements are printed.
+ */
 
+/**
+ * Prints each element from the 'elementi' array at intervals of 1 second.
+ * @function stampaConInterval
+ * @returns {void} 
+ * @example
+ * // Calls stampaConInterval to print each item from the 'elementi' array at 1-second intervals
+ * stampaConInterval();
+ */
 function stampaConInterval() {
     let indice = 0;
     let intervallo = setInterval(function() {
@@ -19,6 +24,21 @@ function stampaConInterval() {
     }, 1000);
 }
 
+/**
+ * @author Marco Tranaso
+ * @description This function prints each element from the 'elementi' array at intervals of 1 second using setTimeout.
+ * It recursively calls itself to print the next element until all are printed.
+ */
+
+/**
+ * Prints each element from the 'elementi' array at intervals of 1 second using recursion with setTimeout.
+ * @function stampaConTimeout
+ * @param {number} indice - The current index of the element to be printed from the 'elementi' array.
+ * @returns {void}
+ * @example
+ * // Starts printing from the first element in the 'elementi' array
+ * stampaConTimeout(0);
+ */
 function stampaConTimeout(indice) {
     if (indice < elementi.length) {
         setTimeout(function() {
@@ -28,4 +48,5 @@ function stampaConTimeout(indice) {
     }
 }
 
+// Call stampaConInterval to start the process
 stampaConInterval();
