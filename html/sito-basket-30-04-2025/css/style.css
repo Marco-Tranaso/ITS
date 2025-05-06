@@ -1,0 +1,469 @@
+* {
+    box-sizing: border-box;
+    /* Include padding e bordo nelle dimensioni totali per tutti gli elementi */
+}
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 1rem;
+    margin-top: 30px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+/* stile personale */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #25344d;
+}
+.logo {
+    height: 50px;
+}
+.right-bar {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+.right-bar li {
+    display: inline;
+}
+.right-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    object-fit: cover;
+    width: 48px;
+    background-color: #fff;
+    margin-left: 1rem;
+}
+
+a {
+    font-size: 40px;
+}
+.background-azienda{
+    width: calc(100vw);
+    height: calc(100vh - 48px);
+}
+.col-3{
+    width: 25%;
+    padding: 20px;
+    background-color: yellow;
+}
+.col-4{
+    gap: 20px;
+    width: 33.3333%;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -1rem;
+}
+.background{
+    position: relative;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    color: red;
+    font-size: 40px;
+}
+.heading{
+    font-size: 40px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+        padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
+.map-container {
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 1rem;
+    margin-top: 30px;
+}
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+footer{
+    padding: 100px;
+    background-color: #25344d;
+    color: white;
+}
+
+.right-bar li a {
+    font-size: 40px; 
+    white-space: nowrap; 
+}
+.footer {
+    background-color: #25344d;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-links li {
+    margin: 8px 0;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-contacts h3 {
+    margin-bottom: 10px;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.social-icons a:hover {
+    color: #1DA1F2;
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    background-color: lime;
+}
+.ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* stile personale */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(207,46,46);
+}
+.logo {
+    height: 50px;
+}
+.right-bar {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+.right-bar li {
+    display: inline;
+}
+.right-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.background-azienda{
+    width: 100%;
+    height: calc(100vh - 73px);
+}
+
+h1{
+    position: absolute;
+    left:10%;
+    top: 15%;
+    font-size: 48px;
+    right:25px;
+    color: white;
+}
+h2{
+    position: absolute;
+    left:10%;
+    top: 20%;
+    font-size: 32px;
+    color: white;
+}

@@ -16,12 +16,17 @@
     </style>
     <script>
         function chiamaServizio(){
-            let elencoPosts = [];
+            let elencoUtenti = [];
+            let ris = ""
             // faccio una chiamata ad un servizio web, il metodo di default è get
-            fetch("https://jsonplaceholder.typicode.com/posts")
+            fetch("http://localhost/api/v1/users")
             .then(risposta => risposta.json())
             .then(rispostaJson => {
-                elencoPosts = rispostaJson;
+                elencoUtenti = rispostaJson;
+
+                for(let i=0;i<elencoUtenti.length;i++){
+                    ris +="<tr><td>" + elencoUtenti[i].id+"</td></tr>";
+                }
                 // il primo elemtno dell'array è
                 let primoPost = elencoPosts[0];
                 let infoPrimoPost="<ol>";
@@ -31,7 +36,7 @@
                 infoPrimoPost += "<li> body: " + primoPost.body + "</li>";
                 infoPrimoPost+="<ol>";
 
-                document.getElementById("target").innerHTML=infoPrimoPost;
+                document.getElementById("tabellaUtentiBody").innerHTML=ris;
             });
     }
   
@@ -39,8 +44,17 @@
 </head>
 
 <body>
-    <button onclick="chiamaServizio()">Chiama il servizio web Typicode</button>
+    <button onclick="chiamaServizio()">Chiama il servizio su localhost fatto con typicode</button>
     <div id="target">Qui comprarirà  il dato del Post</div>
+
+    <table>
+        <thead>
+            <th>id</th>
+        </thead>
+        <tbody id="tabellaUtentiBody">
+
+        </tbody>
+    </table>
 </body>
 
 </html>

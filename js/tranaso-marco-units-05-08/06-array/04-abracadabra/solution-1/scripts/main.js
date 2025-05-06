@@ -6,7 +6,7 @@
 
 /**
  * @constant {string} string - The original string to be modified.
- */
+ */                                                                                             
 let string = "Abracadra";
 
 /**
